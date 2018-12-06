@@ -11,7 +11,6 @@
  * Extends the base Event class to work with the Observer class.
  * ObservableEvent is able to be listened to by eventListeners as well as Observer objects.
  * 
- * @module ObservableEvent
  */
 class ObservableEvent extends Event
 {
@@ -96,7 +95,7 @@ class ObservableEvent extends Event
         Object.keys(this.observers).forEach( (key, index) => 
         {
             this.observers[key].observe(this);
-        })
+        });
     }
 
     /**
@@ -120,7 +119,6 @@ class ObservableEvent extends Event
  * 
  * Acts as a base class that is meant to be extended, but may function by itself, as long as a function is passed in upon construction.
  * 
- * @module Observer
  */
 class Observer
 {
@@ -181,7 +179,6 @@ class Observer
  * Custom event that is able to be observed by an Observer.
  * Acts as a container for data to be passed to the Observer when fired.
  * 
- * @module Observable
  */
 class Observable
 {
@@ -286,7 +283,6 @@ class Observable
  * Can dispatch a single event or all events.
  * Observable events are set using a key.
  * 
- * @module ObservablesDispatcher
  */
 class ObservablesDispatcher
 {

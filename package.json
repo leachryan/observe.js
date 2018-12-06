@@ -1,0 +1,20 @@
+{
+    "name": "observe.js",
+    "description": "An Observer pattern implementation for DOM and custom non-DOM events",
+    "version": "1.0.0",
+    "main": "observe.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/leachryan/observe.js.git"
+    },
+    "keywords": [],
+    "author": "Ryan Leach",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/leachryan/observe.js/issues"
+    },
+    "homepage": "https://github.com/leachryan/observe.js"
+  }
